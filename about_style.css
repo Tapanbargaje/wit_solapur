@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+
+}
+
+#page1 {
+    width: 100%;
+    min-height: 150vh;
+    background-color:  #F0F8FF;
+}
+
+#header {
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    font-family: 'Poppins', sans-serif;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.8px solid #dadada;
+}
+
+#left {
+    padding-left: 5vw;
+    display: flex;
+    align-items: center;
+}
+
+#left img {
+    border-radius: 50%;
+    height: 55px;
+}
+
+#left h2 {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    margin-left: 0.5vw;
+    font-weight: 500;
+    font-size: 3vw;
+}
+
+#right {
+    margin-right: 5vw;
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+
+#right a {
+    position: relative;
+    color: #e2dfdf;
+}
+
+#right a:after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+}
+
+#right a:hover:after {
+    width: 100%;
+
+}
+
+#right h4:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+#right a:hover {
+    color: #fff;
+}
+
+#right i {
+    font-size: 1.5vw;
+    display: none;
+}
+
+#nav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1vw;
+    background-color: #ffffff;
+    min-height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    border-bottom: 1.2px solid #dadada;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cont {
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+}
+
+#desc {
+    
+    font-size: 1vw;
+    margin:0 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bolderr{
+    text-transform: capitalize;
+}
+
+#vis-head {
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#vis-text {
+    font-size: 0.8vw;
+    margin:1.2vh 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#mis-head {
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#mis-text {
+    font-size: 1.18vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#goa-head {
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#goa-text {
+    font-size: 1.18vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#qua-head {
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#qua-text {
+    font-size: 0.8vw;
+    margin:1.2vh 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#cor-head {
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#cor-text {
+    font-size: 0.8vw;
+    margin:1.2vh 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#core-text {
+    font-size: 1.18vw;
+    font-weight: 600;
+    margin:1.2vh 6vw 5vh 6vw;
+    font-family: 'Poppins', sans-serif;
+}
+#pri-head{
+    text-align: center;
+    width: 95%;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1vh;
+}
+
+#pri-img{
+
+    max-width: 90%; 
+}
+#pri-imgM{
+    display: none;
+}
+
+
+
+ 
+
+#footer {
+    min-height: 3vh;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background: linear-gradient(to right, rgb(82, 206, 255), blue);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+}
+
+
+@media (max-width:600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #page1 {
+        width: 100%;
+        min-height: 80vh;
+        background-color:  #F0F8FF;
+    }
+
+    #header {
+        background-color: rgb(245, 220, 220);
+    }
+
+    #left h2 {
+        font-size: 6vw;
+        padding-left: 0.5vw;
+    }
+
+    #right h4 {
+        display: none;
+
+    }
+
+    #right i {
+        display: block;
+        font-size: 6vw;
+        font-weight: 800;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #footer {
+        margin-top: 2vh;
+        font-size: 2.2vw;
+        min-height: 5vh;
+    }
+
+    #cont {
+        font-size: 2.5vw;
+    }
+
+    #desc {
+        font-size: 1.5vw;
+    }
+
+    #vis-head{
+        font-size: 2.5vw;
+    }
+
+    #vis-text{
+        font-size: 1.2vw;
+    }
+
+    #mis-head{
+        font-size: 2.5vw;
+    }
+
+    #mis-text{
+        font-size: 1.7vw;
+    }
+    
+    #goa-head{
+        font-size: 2.5vw;
+    }
+
+    #goa-text{
+        font-size: 1.7vw;
+    }
+
+    #qua-head{
+        font-size: 2.5vw;
+    }
+
+    #qua-text{
+        font-size: 1.2vw;
+    }
+    
+    #cor-head{
+        font-size: 2.5vw;
+    }
+    
+    #cor-text{
+        font-size: 1.2vw;
+    }
+    #core-text{
+        font-size: 1.7vw;
+    }
+    #pri-head{
+        font-size: 2.5vw;
+    }
+    #pri-img {
+        display: none;
+    }
+    
+    .pri-imgM {
+       display: block;
+      
+    }
+    .pri-imgM img{
+        padding: 0,3vw;
+        width: 320px;
+    }
+
+
+    #footer{
+        font-size: 1.8vw;
+    }
+
+}
